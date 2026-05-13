@@ -9,7 +9,7 @@
       </button>
 
       <button class="link">
-        <CommonButton text="Sign In" />
+        <CommonButton text="Log In" />
       </button>
     </header>
     <img
