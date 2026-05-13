@@ -11,6 +11,13 @@ body {
   background: #689ad8;
   color: var(--c-black);
   font-family: var(--f-semibold);
+
+  @include mobile {
+    background: url(/images/mob-bg.png);
+    background-size: 110% 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 ::selection {
   color: var(--c-white);

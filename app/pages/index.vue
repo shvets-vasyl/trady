@@ -17,11 +17,11 @@
       draggable="false"
       src="/images/desk-bg.png"
     />
-    <img
+    <!-- <img
       class="inner-media bg-mob"
       draggable="false"
       src="/images/mob-bg.png"
-    />
+    /> -->
 
     <div class="content">
       <p class="title-1">ape first.</p>
