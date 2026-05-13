@@ -1,0 +1,40 @@
+@use "./utils/mixins" as *;
+
+// viewport
+
+:root {
+  --viewport: 1440;
+
+  @include mobile {
+    --viewport: 375;
+  }
+}
+
+// fonts
+
+:root {
+  --f-bold: "Bold";
+  --f-semibold: "SemiBold";
+}
+
+:root {
+  --c-yellow: #fff93c;
+  --c-black: #000;
+  --c-white: #fff;
+}
+
+// transitions
+
+:root {
+  --t-inOut: cubic-bezier(0.76, 0, 0.24, 1);
+  --t-out: cubic-bezier(0.25, 1, 0.5, 1);
+  --t-in: cubic-bezier(0.5, 0, 0.75, 0);
+  --t-ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+// colors
+
+:root {
+  --c-black: rgb(0, 0, 0);
+  --c-white: rgb(255, 255, 255);
+}
