@@ -5,11 +5,11 @@
         <img class="logo-img" draggable="false" src="/images/logo.svg" />
       </div>
       <a class="link link-1" href="#" target="_blank">
-        <Button text="Sign Up" transparent />
+        <CommonButton text="Sign Up" transparent />
       </a>
 
       <a class="link" href="#" target="_blank">
-        <Button text="Sign In" />
+        <CommonButton text="Sign In" />
       </a>
     </header>
     <img
@@ -29,7 +29,7 @@
       <p class="descr">the memecoin trading terminal that keeps you ahead.</p>
 
       <a class="btn" href="#" target="_blank">
-        <Button text="Start Trading" />
+        <CommonButton text="Start Trading" />
       </a>
     </div>
   </main>
