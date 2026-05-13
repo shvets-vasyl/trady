@@ -4,13 +4,13 @@
       <div class="logo">
         <img class="logo-img" draggable="false" src="/images/logo.svg" />
       </div>
-      <a class="link link-1" href="#" target="_blank">
+      <button class="link link-1">
         <CommonButton text="Sign Up" transparent />
-      </a>
+      </button>
 
-      <a class="link" href="#" target="_blank">
+      <button class="link">
         <CommonButton text="Sign In" />
-      </a>
+      </button>
     </header>
     <img
       class="inner-media bg-desk"
@@ -28,9 +28,9 @@
       <p class="title-2">trade smarter.</p>
       <p class="descr">the memecoin trading terminal that keeps you ahead.</p>
 
-      <a class="btn" href="#" target="_blank">
-        <CommonButton text="Start Trading" />
-      </a>
+      <button class="btn" disabled>
+        <CommonButton text="Launch Soon" />
+      </button>
     </div>
   </main>
 </template>
@@ -121,6 +121,11 @@
   display: block;
   @include mobile {
     display: none;
+  }
+}
+.btn:deep(.btn-template) {
+  @include mobile {
+    padding: 0.75rem 1rem;
   }
 }
 </style>

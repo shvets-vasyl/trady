@@ -21,6 +21,9 @@ defineProps<{
   background: var(--c-yellow);
   color: var(--c-black);
   transition: all 0.4s ease;
+  @include mobile {
+    padding: 0.5rem 1rem;
+  }
 }
 @include hover {
   .btn-template:hover {
