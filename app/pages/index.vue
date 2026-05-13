@@ -40,7 +40,7 @@
 <style scoped lang="scss">
 .main-page {
   position: relative;
-  height: 100vh;
+  height: 100lvh;
   color: var(--c-white);
 }
 .title-1,
