@@ -17,11 +17,11 @@
       draggable="false"
       src="/images/desk-bg.png"
     />
-    <!-- <img
+    <img
       class="inner-media bg-mob"
       draggable="false"
       src="/images/mob-bg.png"
-    /> -->
+    />
 
     <div class="content">
       <p class="title-1">ape first.</p>
@@ -114,7 +114,12 @@
 .bg-mob {
   display: none;
   @include mobile {
+    position: absolute;
     display: block;
+    height: 115%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
   }
 }
 .bg-desk {
