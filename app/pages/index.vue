@@ -116,7 +116,7 @@
   @include mobile {
     position: absolute;
     display: block;
-    height: 115%;
+    height: 120%;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
